@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating turtle_hunter.egg-info
+writing turtle_hunter.egg-info/PKG-INFO
+writing dependency_links to turtle_hunter.egg-info/dependency_links.txt
+writing entry points to turtle_hunter.egg-info/entry_points.txt
+writing requirements to turtle_hunter.egg-info/requires.txt
+writing top-level names to turtle_hunter.egg-info/top_level.txt
+writing manifest file 'turtle_hunter.egg-info/SOURCES.txt'
+reading manifest file 'turtle_hunter.egg-info/SOURCES.txt'
+writing manifest file 'turtle_hunter.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bojan/ros2_project_04/install/turtle_hunter/lib/python3.10/site-packages/turtle-hunter.egg-link (link to .)
+Installing turtle_controller script to /home/bojan/ros2_project_04/install/turtle_hunter/lib/turtle_hunter
+
+Installed /home/bojan/ros2_project_04/build/turtle_hunter
+running install_data
+creating /home/bojan/ros2_project_04/install/turtle_hunter/share/ament_index
+creating /home/bojan/ros2_project_04/install/turtle_hunter/share/ament_index/resource_index
+creating /home/bojan/ros2_project_04/install/turtle_hunter/share/ament_index/resource_index/packages
+copying resource/turtle_hunter -> /home/bojan/ros2_project_04/install/turtle_hunter/share/ament_index/resource_index/packages
+copying package.xml -> /home/bojan/ros2_project_04/install/turtle_hunter/share/turtle_hunter

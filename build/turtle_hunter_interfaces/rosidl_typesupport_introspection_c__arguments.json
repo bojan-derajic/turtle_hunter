@@ -1,0 +1,23 @@
+{
+  "package_name": "turtle_hunter_interfaces",
+  "output_dir": "/home/bojan/ros2_project_04/build/turtle_hunter_interfaces/rosidl_typesupport_introspection_c/turtle_hunter_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/bojan/ros2_project_04/build/turtle_hunter_interfaces/rosidl_adapter/turtle_hunter_interfaces:msg/Turtle.idl",
+    "/home/bojan/ros2_project_04/build/turtle_hunter_interfaces/rosidl_adapter/turtle_hunter_interfaces:msg/TurtleArray.idl",
+    "/home/bojan/ros2_project_04/build/turtle_hunter_interfaces/rosidl_adapter/turtle_hunter_interfaces:srv/CatchTurtle.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/bojan/ros2_project_04/build/turtle_hunter_interfaces/rosidl_adapter/turtle_hunter_interfaces/msg/Turtle.idl",
+    "/home/bojan/ros2_project_04/build/turtle_hunter_interfaces/rosidl_adapter/turtle_hunter_interfaces/msg/TurtleArray.idl",
+    "/home/bojan/ros2_project_04/build/turtle_hunter_interfaces/rosidl_adapter/turtle_hunter_interfaces/srv/CatchTurtle.idl"
+  ]
+}

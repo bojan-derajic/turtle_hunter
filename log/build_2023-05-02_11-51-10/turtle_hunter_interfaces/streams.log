@@ -1,0 +1,18 @@
+[0.060s] Invoking command in '/home/bojan/ros2_project_04/build/turtle_hunter_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bojan/ros2_project_04/install/turtle_hunter:/home/bojan/ros2_project_03/install/robot_media:/home/bojan/ros2_project_01/install/robot_pkg_py:/home/bojan/ros2_project_01/install/num_pkg_py:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/bojan/ros2_project_04/build/turtle_hunter_interfaces -- -j16 -l16
+[0.121s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.481s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.484s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.491s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.011s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.071s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[1.071s]   rosidl_generate_interfaces() the passed file 'srv/CatchTurtle' doesn't
+[1.071s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.072s]   '/home/bojan/ros2_project_04/src/turtle_hunter_interfaces'
+[1.072s] Call Stack (most recent call first):
+[1.072s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[1.072s] 
+[1.072s] [0m
+[1.072s] -- Configuring incomplete, errors occurred!
+[1.072s] See also "/home/bojan/ros2_project_04/build/turtle_hunter_interfaces/CMakeFiles/CMakeOutput.log".
+[1.081s] gmake: *** [Makefile:963: cmake_check_build_system] Error 1
+[1.084s] Invoked command in '/home/bojan/ros2_project_04/build/turtle_hunter_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bojan/ros2_project_04/install/turtle_hunter:/home/bojan/ros2_project_03/install/robot_media:/home/bojan/ros2_project_01/install/robot_pkg_py:/home/bojan/ros2_project_01/install/num_pkg_py:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/bojan/ros2_project_04/build/turtle_hunter_interfaces -- -j16 -l16

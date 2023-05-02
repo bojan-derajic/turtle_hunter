@@ -1,0 +1,8 @@
+{
+  "package_name": "turtle_hunter_interfaces",
+  "non_idl_tuples": [
+    "/home/bojan/ros2_project_04/src/turtle_hunter_interfaces:msg/Turtle.msg",
+    "/home/bojan/ros2_project_04/src/turtle_hunter_interfaces:msg/TurtleArray.msg",
+    "/home/bojan/ros2_project_04/src/turtle_hunter_interfaces:srv/CatchTurtle.srv"
+  ]
+}

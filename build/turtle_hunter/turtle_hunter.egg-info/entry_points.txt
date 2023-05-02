@@ -1,0 +1,4 @@
+[console_scripts]
+turtle_controller = turtle_hunter.turtle_controller:main
+turtle_spawner = turtle_hunter.turtle_spawner:main
+

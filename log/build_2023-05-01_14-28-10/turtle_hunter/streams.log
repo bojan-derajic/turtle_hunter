@@ -1,0 +1,25 @@
+[0.567s] Invoking command in '/home/bojan/ros2_project_04/build/turtle_hunter': PYTHONPATH=/home/bojan/ros2_project_04/build/turtle_hunter/prefix_override:/home/bojan/ros2_project_04/install/turtle_hunter/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py develop --editable --build-directory /home/bojan/ros2_project_04/build/turtle_hunter/build --no-deps install_data
+[0.802s] running develop
+[0.802s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.802s]   warnings.warn(
+[0.804s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.804s]   warnings.warn(
+[0.848s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[0.849s]   warnings.warn(
+[0.944s] running egg_info
+[0.944s] writing turtle_hunter.egg-info/PKG-INFO
+[0.945s] writing dependency_links to turtle_hunter.egg-info/dependency_links.txt
+[0.945s] writing entry points to turtle_hunter.egg-info/entry_points.txt
+[0.946s] writing requirements to turtle_hunter.egg-info/requires.txt
+[0.946s] writing top-level names to turtle_hunter.egg-info/top_level.txt
+[0.948s] reading manifest file 'turtle_hunter.egg-info/SOURCES.txt'
+[0.950s] writing manifest file 'turtle_hunter.egg-info/SOURCES.txt'
+[0.952s] running build_ext
+[0.953s] Creating /home/bojan/ros2_project_04/install/turtle_hunter/lib/python3.10/site-packages/turtle-hunter.egg-link (link to .)
+[0.954s] Installing turtle_controller script to /home/bojan/ros2_project_04/install/turtle_hunter/lib/turtle_hunter
+[0.955s] Installing turtle_spawner script to /home/bojan/ros2_project_04/install/turtle_hunter/lib/turtle_hunter
+[0.955s] 
+[0.955s] Installed /home/bojan/ros2_project_04/build/turtle_hunter
+[0.956s] running install_data
+[0.956s] copying package.xml -> /home/bojan/ros2_project_04/install/turtle_hunter/share/turtle_hunter
+[0.984s] Invoked command in '/home/bojan/ros2_project_04/build/turtle_hunter' returned '0': PYTHONPATH=/home/bojan/ros2_project_04/build/turtle_hunter/prefix_override:/home/bojan/ros2_project_04/install/turtle_hunter/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py develop --editable --build-directory /home/bojan/ros2_project_04/build/turtle_hunter/build --no-deps install_data

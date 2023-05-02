@@ -1,0 +1,46 @@
+[1.632s] Invoking command in '/home/bojan/ros2_project_04/build/turtle_hunter': PYTHONPATH=/home/bojan/ros2_project_04/build/turtle_hunter/prefix_override:/home/bojan/ros2_project_04/install/turtle_hunter/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/bojan/ros2_project_04/build/turtle_hunter/build
+[2.242s] running develop
+[2.270s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.270s]   warnings.warn(
+[2.270s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.270s]   warnings.warn(
+[2.411s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[2.411s]   warnings.warn(
+[2.583s] Removing /home/bojan/ros2_project_04/install/turtle_hunter/lib/python3.10/site-packages/turtle-hunter.egg-link (link to .)
+[2.700s] Invoked command in '/home/bojan/ros2_project_04/build/turtle_hunter' returned '0': PYTHONPATH=/home/bojan/ros2_project_04/build/turtle_hunter/prefix_override:/home/bojan/ros2_project_04/install/turtle_hunter/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/bojan/ros2_project_04/build/turtle_hunter/build
+[2.701s] Invoking command in '/home/bojan/ros2_project_04/src/turtle_hunter': PYTHONPATH=/home/bojan/ros2_project_04/build/turtle_hunter/prefix_override:/home/bojan/ros2_project_04/install/turtle_hunter/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_hunter build --build-base /home/bojan/ros2_project_04/build/turtle_hunter/build install --record /home/bojan/ros2_project_04/build/turtle_hunter/install.log --single-version-externally-managed
+[3.172s] running egg_info
+[3.173s] writing ../../build/turtle_hunter/turtle_hunter.egg-info/PKG-INFO
+[3.174s] writing dependency_links to ../../build/turtle_hunter/turtle_hunter.egg-info/dependency_links.txt
+[3.174s] writing entry points to ../../build/turtle_hunter/turtle_hunter.egg-info/entry_points.txt
+[3.180s] writing requirements to ../../build/turtle_hunter/turtle_hunter.egg-info/requires.txt
+[3.180s] writing top-level names to ../../build/turtle_hunter/turtle_hunter.egg-info/top_level.txt
+[3.183s] reading manifest file '../../build/turtle_hunter/turtle_hunter.egg-info/SOURCES.txt'
+[3.191s] writing manifest file '../../build/turtle_hunter/turtle_hunter.egg-info/SOURCES.txt'
+[3.200s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.200s]   warnings.warn(
+[3.210s] running build
+[3.210s] running build_py
+[3.230s] creating /home/bojan/ros2_project_04/build/turtle_hunter/build
+[3.230s] creating /home/bojan/ros2_project_04/build/turtle_hunter/build/lib
+[3.230s] creating /home/bojan/ros2_project_04/build/turtle_hunter/build/lib/turtle_hunter
+[3.230s] copying turtle_hunter/__init__.py -> /home/bojan/ros2_project_04/build/turtle_hunter/build/lib/turtle_hunter
+[3.231s] copying turtle_hunter/turtle_spawner.py -> /home/bojan/ros2_project_04/build/turtle_hunter/build/lib/turtle_hunter
+[3.231s] copying turtle_hunter/turtle_controller.py -> /home/bojan/ros2_project_04/build/turtle_hunter/build/lib/turtle_hunter
+[3.231s] running install
+[3.231s] running install_lib
+[3.231s] creating /home/bojan/ros2_project_04/install/turtle_hunter/lib/python3.10/site-packages/turtle_hunter
+[3.231s] copying /home/bojan/ros2_project_04/build/turtle_hunter/build/lib/turtle_hunter/__init__.py -> /home/bojan/ros2_project_04/install/turtle_hunter/lib/python3.10/site-packages/turtle_hunter
+[3.231s] copying /home/bojan/ros2_project_04/build/turtle_hunter/build/lib/turtle_hunter/turtle_spawner.py -> /home/bojan/ros2_project_04/install/turtle_hunter/lib/python3.10/site-packages/turtle_hunter
+[3.231s] copying /home/bojan/ros2_project_04/build/turtle_hunter/build/lib/turtle_hunter/turtle_controller.py -> /home/bojan/ros2_project_04/install/turtle_hunter/lib/python3.10/site-packages/turtle_hunter
+[3.231s] byte-compiling /home/bojan/ros2_project_04/install/turtle_hunter/lib/python3.10/site-packages/turtle_hunter/__init__.py to __init__.cpython-310.pyc
+[3.231s] byte-compiling /home/bojan/ros2_project_04/install/turtle_hunter/lib/python3.10/site-packages/turtle_hunter/turtle_spawner.py to turtle_spawner.cpython-310.pyc
+[3.231s] byte-compiling /home/bojan/ros2_project_04/install/turtle_hunter/lib/python3.10/site-packages/turtle_hunter/turtle_controller.py to turtle_controller.cpython-310.pyc
+[3.232s] running install_data
+[3.232s] running install_egg_info
+[3.232s] Copying ../../build/turtle_hunter/turtle_hunter.egg-info to /home/bojan/ros2_project_04/install/turtle_hunter/lib/python3.10/site-packages/turtle_hunter-0.0.0-py3.10.egg-info
+[3.232s] running install_scripts
+[3.281s] Installing turtle_controller script to /home/bojan/ros2_project_04/install/turtle_hunter/lib/turtle_hunter
+[3.290s] Installing turtle_spawner script to /home/bojan/ros2_project_04/install/turtle_hunter/lib/turtle_hunter
+[3.290s] writing list of installed files to '/home/bojan/ros2_project_04/build/turtle_hunter/install.log'
+[3.420s] Invoked command in '/home/bojan/ros2_project_04/src/turtle_hunter' returned '0': PYTHONPATH=/home/bojan/ros2_project_04/build/turtle_hunter/prefix_override:/home/bojan/ros2_project_04/install/turtle_hunter/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_hunter build --build-base /home/bojan/ros2_project_04/build/turtle_hunter/build install --record /home/bojan/ros2_project_04/build/turtle_hunter/install.log --single-version-externally-managed
